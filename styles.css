@@ -3,16 +3,75 @@
     padding: 0;
 }
 
-.color1 {
-    background-color: aqua;
+.encabezado {
+    text-align: center;
+    color: rgb(22, 22, 73);
+    
 }
 
 .banner {
+    display: flex;
+    text-align: center;
+    align-items: center;
     background-image: url(img/jeans-ge6cb772bf_1280.jpg);
     background-size: cover;
-    height: 600px;
+    height: 500px;
+    font-family: 'Praise', cursive;
+    color: white;
+    font-size: 300px;
 }
 
 main {
     margin: 20px;
 }
+
+
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tarjeta img {
+    border-radius: 10px;
+    margin-bottom: 8px;
+
+}
+
+.tarjeta h2 {
+    font-weight: bold;
+    color: rgb(82, 109, 139);
+}
+
+.tarjeta p {
+    width: 300px;
+    text-align: center;
+}
+
+
+.info-bol {
+    text-align: center;
+    margin: 35px;
+    background-color: rgb(22, 22, 73);
+    color: white;
+    padding: 15px;
+    
+}
+
+.footer {
+    background-color: rgb(192, 159, 70);
+    padding-top: 25px;
+}
+
+.servicios p {
+    font-size: 20px;
+}
+
+.servicios .titulo {
+    font-size: 30px;
+    color: black;
+}
+
+
+
